@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
     char *word;
     while ((word = get_next_word(fp)) != NULL) {
         process_element(word);  // Process each word
-        free(word);  // Remember to free the memory
+        free(word);  
     }
 
     fclose(fp);
