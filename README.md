@@ -1,4 +1,4 @@
 # screeningtask_create
 
 
-# # # run make to compile
+run make to compile
